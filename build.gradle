@@ -1,7 +1,7 @@
 plugins {
     id "java"
     id "idea"
-    id "org.jetbrains.kotlin.jvm" 
+    id "org.jetbrains.kotlin.jvm"
     id "com.github.johnrengelman.shadow" version "6.1.0"
     id "net.minecraftforge.gradle.forge"
     id "org.spongepowered.mixin"
@@ -64,6 +64,7 @@ dependencies {
     }
 
     include 'com.github.TheAltening:TheAltening4j:d0771f42d3'
+    include 'com.github.TheAltening:API-Java-AuthLib:63a9702615'
 }
 
 shadowJar {
